@@ -3,7 +3,7 @@ const listContainer = document.getElementById("list-container");
 
 function addTask() {
     if (inputBox.value === '') {
-        showCustomAlert("Please add some text");
+        showCustomAlert("Please add some text !!");
     } else {
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
